@@ -32,7 +32,7 @@ ENV PATH /opt/conda/envs/${env_name}/bin:$PATH
 RUN bash -c  ". activate ${env_name}" && \
     conda install -y django
 
-#other settings
+#create workspace
 WORKDIR /home/workspace
 
 WORKDIR /
