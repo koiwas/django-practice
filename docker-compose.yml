@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  django-dev:
+    #docker build -it --platform linux/amd64 .
+    build: .
+    stdin_open: true
+    tty: true
+    platform: linux/amd64

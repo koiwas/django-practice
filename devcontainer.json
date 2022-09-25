@@ -1,0 +1,10 @@
+{
+    "name":"django",
+    "dockerComposeFile":"docker-compose.yml",
+    "service": "django-dev",
+    "workspaceFolder": "/home/workspace",
+    "extensions":[
+        "ms-python.python"
+    ],
+    "settings": {}
+}
